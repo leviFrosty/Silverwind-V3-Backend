@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_shared_video_cards",
+  "info": {
+    "displayName": "Video Card",
+    "icon": "align-center",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "video": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "videos"
+      ]
+    },
+    "description": {
+      "type": "string"
+    },
+    "autoplay": {
+      "type": "boolean",
+      "default": false
+    },
+    "overlayTitle": {
+      "type": "string"
+    },
+    "overlaySubTitle": {
+      "type": "string"
+    },
+    "subTitleType": {
+      "type": "enumeration",
+      "enum": [
+        "underline",
+        "highlight"
+      ]
+    }
+  }
+}

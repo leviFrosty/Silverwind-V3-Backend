@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_shared_image_cards",
+  "info": {
+    "displayName": "Image Card",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "backgroundColor": {
+      "type": "string",
+      "default": "#A27DF8"
+    },
+    "subTitleType": {
+      "type": "enumeration",
+      "enum": [
+        "underline",
+        "highlight"
+      ]
+    }
+  }
+}

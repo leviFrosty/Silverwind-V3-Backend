@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_shared_cta_order_customs",
+  "info": {
+    "displayName": "CTA: Order Custom",
+    "icon": "air-freshener",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "question_text": {
+      "type": "string",
+      "required": false
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link"
+    }
+  }
+}

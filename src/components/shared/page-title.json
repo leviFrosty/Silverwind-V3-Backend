@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_page_titles",
+  "info": {
+    "displayName": "Page Title",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "subtext": {
+      "type": "string"
+    }
+  }
+}
