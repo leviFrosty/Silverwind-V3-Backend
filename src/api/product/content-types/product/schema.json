@@ -132,8 +132,7 @@
       ]
     },
     "materialQuality": {
-      "type": "decimal",
-      "required": true
+      "type": "decimal"
     },
     "type": {
       "type": "enumeration",
